@@ -28,9 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Opening));
             this.pharmaPic = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ShowMain));
             this.backgroundWorkerYatech = new System.ComponentModel.BackgroundWorker();
             ((System.ComponentModel.ISupportInitialize)(this.pharmaPic)).BeginInit();
             this.SuspendLayout();
@@ -50,11 +50,11 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(8, 30);
+            this.label1.Location = new System.Drawing.Point(12, 30);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(231, 16);
+            this.label1.Size = new System.Drawing.Size(222, 16);
             this.label1.TabIndex = 2;
-            this.label1.Text = "SİSTEM BİLGİSİ TOPLANIYOR...";
+            this.label1.Text = "Gathering System Information...";
             // 
             // backgroundWorkerYatech
             // 
